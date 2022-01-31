@@ -1,0 +1,28 @@
+{
+  "name": "swan-agency-website",
+  "version": "1.0.0",
+  "description": "all credits to mehraeen-mozhdi ad backend developer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swandevagency/swan-agency-website.git"
+  },
+  "author": "mehraeen-mozhdi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swandevagency/swan-agency-website/issues"
+  },
+  "homepage": "https://github.com/swandevagency/swan-agency-website#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8"
+  }
+}
