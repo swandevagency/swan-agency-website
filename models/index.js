@@ -1,8 +1,8 @@
 const mongoose = require('mongoose')
 
-const pageSchema = require('./pages/index')
-const enPageContentSchema = require('./pages/EnPageContent/index')
-const faPageContentSchema = require('./pages/FaPageContent/index')
+const pageSchema = require('./Pages/index')
+const enPageContentSchema = require('./Pages/EnPageContent/index')
+const faPageContentSchema = require('./Pages/FaPageContent/index')
 
 
 const ourWorkSchema = require('./OurWork/index')
@@ -10,9 +10,9 @@ const EnOurWorkContentSchema = require('./OurWork/EnOurWorkContent/index')
 const FaOurWorkContentSchema = require('./OurWork/FaOurWorkContent/index')
 
 
-const blogSchema = require('./blog/index')
-const EnBlogContentSchema = require('./blog/EnBlogContent/index')
-const FaBlogContentSchema = require('./blog/FaBlogContent/index')
+const blogSchema = require('./Blog/index')
+const EnBlogContentSchema = require('./Blog/EnBlogContent/index')
+const FaBlogContentSchema = require('./Blog/FaBlogContent/index')
 
 
 const clientSchema = require('./Client/index')
