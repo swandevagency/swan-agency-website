@@ -13,7 +13,6 @@ const ourWorkSchema = new mongoose.Schema({
         
     },
     backgroundImage : {
-        type : "string"
     },
     images : [],
     ourWorkContent : {
