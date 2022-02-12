@@ -42,7 +42,7 @@ app.use(cors({origin : '*'}))
 
 app.use(bodyParser.urlencoded({extended : true}))
 
-app.use('/',require('./routes/index'))
+app.use('/api',require('./routes/index'))
 
 app.listen(port, ()=>{
     console.log('server is running on port 5000')

@@ -2,7 +2,6 @@ const mongoose = require('mongoose')
 const {ObjectId} = require('mongoose').Types
 
 module.exports = async (req, res) =>{
-    console.log(req.params.id)
     const lnags = ['en','fa']
     if(lnags.indexOf(req.params.lang) ===-1){
         res.status(404).send({

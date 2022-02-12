@@ -2,7 +2,6 @@ const mongoose = require('mongoose')
 
 
 module.exports = async (req, res) =>{
-    console.log(req.body)
     const {name, phoneNumber, email, instagramId, description} = req.body
     if(!name){
         return res.status(400).send({

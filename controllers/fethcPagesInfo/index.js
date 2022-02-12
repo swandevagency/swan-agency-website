@@ -4,8 +4,6 @@ require('../../models/index')
 module.exports = async (req, res) =>{
     const langs = ['en','fa']
     if(langs.indexOf(req.params.lang) === -1){
-        console.log(langs.indexOf(req.params.lang))
-        console.log(typeof(req.params.lang))
         res.status(404).send({
             msg : 'this language is not available'
         })
