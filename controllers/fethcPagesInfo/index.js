@@ -2,6 +2,7 @@ const mongoose = require('mongoose')
 require('../../models/index')
 
 module.exports = async (req, res) =>{
+    console.log('request received to page info')
     const langs = ['en','fa']
     if(langs.indexOf(req.params.lang) === -1){
         res.status(404).send({
