@@ -2,7 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 const app = express()
-const port = 5000
+const port = 3000
 const cors = require('cors')
 
 mongoose.connect('mongodb://localhost:27017/swan-website',{useNewUrlParser : true})
@@ -20,5 +20,5 @@ app.use(bodyParser.urlencoded({extended : true}))
 app.use('/api',require('./routes/index'))
 
 app.listen(port, ()=>{
-    console.log('server is running on port 5000')
+    console.log('server is running on port 3000')
 })
