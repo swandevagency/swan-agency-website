@@ -5,7 +5,7 @@ const app = express()
 const port = 3000
 const cors = require('cors')
 
-mongoose.connect('mongodb://localhost:27017/swan-website',{useNewUrlParser : true})
+mongoose.connect('mongodb://localhost/swan-website',{useNewUrlParser : true})
 .then(() =>{
     console.log('database is connected')
 })
