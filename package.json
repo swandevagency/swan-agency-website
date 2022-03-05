@@ -4,8 +4,8 @@
   "description": "all credits to mehraeen-mozhdi ad backend developer",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "dev": "nodemon server"
+    "start": "node swanserver",
+    "dev": "nodemon swanserver"
   },
   "repository": {
     "type": "git",
