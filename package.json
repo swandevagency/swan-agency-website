@@ -2,7 +2,7 @@
   "name": "swan-agency-website",
   "version": "1.0.0",
   "description": "all credits to mehraeen-mozhdi ad backend developer",
-  "main": "server.js",
+  "main": "swanserver.js",
   "scripts": {
     "start": "node swanserver",
     "dev": "nodemon swanserver"
