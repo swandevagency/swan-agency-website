@@ -2,7 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 const app = express()
-const port = 3000
+const port = 5000
 const cors = require('cors')
 
 mongoose.connect('mongodb://127.0.0.1:27017/swan-website',{useNewUrlParser : true})
